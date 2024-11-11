@@ -37,6 +37,19 @@ The sensitivity analysis for varying values of *m* demonstrates that as more age
 
 ### Comparative model performance
 
+This agent-based model simulates the spread of infections diseases through the use of agents, which represent individuals with certain behaviors. Compared to other models that simulate pandemic spread dynamics (e.g. compartmental model as in HW question #1), agent-based models are better for examining community-level dynamics and is easier to understand for those who are not experts on compartmental models, which use potentially confusing mathematical equations. On the other hand, it has some limitations in that the simulations may differ greatly depending on the initial conditions, meaning that it may potentially be easy to manipulate to show certain conclusions. Also, statistical analysis such as confidence intervals is more difficult to do compared to compartmental models.
+
 ### Relevance to model-based machine learning
 
+This agent-based model can be used in machine learning models. For example, the simulation results could be used to train a model that determines the optimal initial parameters given certain criteria. In addition, the model could be used to generate simulated data so that researchers do not need to gather real-world data, which can be expensive, time-consuming, and unethical.
+
 ### Suggestions for future modeling improvements
+
+The following are some implementation ideas for further modeling improvements:
+- Agents becoming susceptible again after recovery
+- Mask wearing
+- Vaccination status
+- Agent death due to pandemic
+- Changes in social distancing measures (e.g. relaxed at first but then becomes strict)
+- Certain agents living together
+- Hotspot areas (e.g. grid position that represent school, office, etc.)
